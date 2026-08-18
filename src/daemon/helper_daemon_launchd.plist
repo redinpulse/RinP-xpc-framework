@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.test.smdprobe.daemon</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.test.smdprobe.daemon</key>
+		<true/>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>Program</key>
+	<string>/Library/PrivilegedHelperTools/com.test.smdprobe.daemon</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/PrivilegedHelperTools/com.test.smdprobe.daemon</string>
+	</array>
+</dict>
+</plist>
