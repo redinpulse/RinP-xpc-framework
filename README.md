@@ -5,6 +5,7 @@ A macOS red team framework that deploys a persistent root XPC daemon via **BTM (
 Includes **19 Metasploit modules** with full automation and **EDR evasion** (dynamic naming, native APIs, zero logging, obfuscated selectors).
 
 **Author:** Red in Pulse - Mr.Gedik
+
 **Blog:** https://redinpulse.com/en/blog/macos-red-team-xpc-persistence
 ---
 
